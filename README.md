@@ -8,6 +8,12 @@ This project analyzes and segments the mobile application market by integrating 
 
 The mobile app market is highly saturated. To understand what drives app success across different ecosystems, this project processes raw store data, unifies the schemas, and applies clustering algorithms to group applications into distinct market segments.
 
+## 📊 Data Sources
+
+The raw data for this project was sourced from Kaggle:
+*   **Google Play Store Apps:** [Kaggle Dataset by Lavanya](https://www.kaggle.com/datasets/lava18/google-play-store-apps)
+*   **Apple App Store Data:** [Kaggle Dataset by Ramanathan](https://www.kaggle.com/datasets/ramamet4/app-store-apple-data-set-10k-apps)
+
 **Key Outcomes:**
 *   Unified disparate datasets from two major app stores into a single, clean schema.
 *   Engineered and standardized features (e.g., converting mixed string sizes to uniform Megabytes, cleaning currency symbols).
