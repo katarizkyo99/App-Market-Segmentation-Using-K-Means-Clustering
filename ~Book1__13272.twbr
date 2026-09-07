@@ -1,0 +1,670 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0410.0924                               -->
+<workbook original-version='18.1' source-build='2026.1.1 (20261.26.0410.0924)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='combined_apps_with_clusters' inline='true' name='federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='combined_apps_with_clusters' name='textscan.0rklbde0pgikra173gqxo0txtfym'>
+            <connection class='textscan' directory='C:/Users/hp/Downloads/archive' filename='combined_apps_with_clusters.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0rklbde0pgikra173gqxo0txtfym' name='combined_apps_with_clusters.csv' table='[combined_apps_with_clusters#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=',' text-qualifier='&quot;'>
+            <column datatype='string' name='App' ordinal='0' />
+            <column datatype='string' name='Platform' ordinal='1' />
+            <column datatype='string' name='Category' ordinal='2' />
+            <column datatype='real' name='Rating' ordinal='3' />
+            <column datatype='integer' name='Reviews' ordinal='4' />
+            <column datatype='real' name='Size_MB' ordinal='5' />
+            <column datatype='real' name='Installs' ordinal='6' />
+            <column datatype='string' name='Type' ordinal='7' />
+            <column datatype='real' name='Price' ordinal='8' />
+            <column datatype='string' name='Content Rating' ordinal='9' />
+            <column datatype='string' name='Genres' ordinal='10' />
+            <column datatype='date' name='Last Updated' ordinal='11' />
+            <column datatype='real' name='Current Ver' ordinal='12' />
+            <column datatype='string' name='Android Ver' ordinal='13' />
+            <column datatype='integer' name='Cluster_ID' ordinal='14' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[combined_apps_with_clusters.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='quote-char'>&quot;\&quot;&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>App</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[App]</local-name>
+            <parent-name>[combined_apps_with_clusters.csv]</parent-name>
+            <remote-alias>App</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Platform</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Platform]</local-name>
+            <parent-name>[combined_apps_with_clusters.csv]</parent-name>
+            <remote-alias>Platform</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[combined_apps_with_clusters.csv]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rating]</local-name>
+            <parent-name>[combined_apps_with_clusters.csv]</parent-name>
+            <remote-alias>Rating</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reviews</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reviews]</local-name>
+            <parent-name>[combined_apps_with_clusters.csv]</parent-name>
+            <remote-alias>Reviews</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Size_MB</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Size_MB]</local-name>
+            <parent-name>[combined_apps_with_clusters.csv]</parent-name>
+            <remote-alias>Size_MB</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Installs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Installs]</local-name>
+            <parent-name>[combined_apps_with_clusters.csv]</parent-name>
+            <remote-alias>Installs</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[combined_apps_with_clusters.csv]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Price]</local-name>
+            <parent-name>[combined_apps_with_clusters.csv]</parent-name>
+            <remote-alias>Price</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Content Rating</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Content Rating]</local-name>
+            <parent-name>[combined_apps_with_clusters.csv]</parent-name>
+            <remote-alias>Content Rating</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genres</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Genres]</local-name>
+            <parent-name>[combined_apps_with_clusters.csv]</parent-name>
+            <remote-alias>Genres</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Last Updated</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Last Updated]</local-name>
+            <parent-name>[combined_apps_with_clusters.csv]</parent-name>
+            <remote-alias>Last Updated</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current Ver</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Current Ver]</local-name>
+            <parent-name>[combined_apps_with_clusters.csv]</parent-name>
+            <remote-alias>Current Ver</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Android Ver</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Android Ver]</local-name>
+            <parent-name>[combined_apps_with_clusters.csv]</parent-name>
+            <remote-alias>Android Ver</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cluster_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cluster_ID]</local-name>
+            <parent-name>[combined_apps_with_clusters.csv]</parent-name>
+            <remote-alias>Cluster_ID</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Cluster_ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Platform]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Price]' role='dimension' semantic-role='' type='ordinal' />
+      <column caption='combined_apps_with_clusters.csv' datatype='table' name='[__tableau_internal_object_id__].[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]' role='measure' type='quantitative' />
+      <column-instance column='[Cluster_ID]' derivation='None' name='[none:Cluster_ID:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Platform]' derivation='None' name='[none:Platform:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Cluster_ID:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Platform:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Apple App Store&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Google Play Store&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Indonesia&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='combined_apps_with_clusters.csv' id='combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE'>
+            <properties context=''>
+              <relation connection='textscan.0rklbde0pgikra173gqxo0txtfym' name='combined_apps_with_clusters.csv' table='[combined_apps_with_clusters#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=',' text-qualifier='&quot;'>
+                  <column datatype='string' name='App' ordinal='0' />
+                  <column datatype='string' name='Platform' ordinal='1' />
+                  <column datatype='string' name='Category' ordinal='2' />
+                  <column datatype='real' name='Rating' ordinal='3' />
+                  <column datatype='integer' name='Reviews' ordinal='4' />
+                  <column datatype='real' name='Size_MB' ordinal='5' />
+                  <column datatype='real' name='Installs' ordinal='6' />
+                  <column datatype='string' name='Type' ordinal='7' />
+                  <column datatype='real' name='Price' ordinal='8' />
+                  <column datatype='string' name='Content Rating' ordinal='9' />
+                  <column datatype='string' name='Genres' ordinal='10' />
+                  <column datatype='date' name='Last Updated' ordinal='11' />
+                  <column datatype='real' name='Current Ver' ordinal='12' />
+                  <column datatype='string' name='Android Ver' ordinal='13' />
+                  <column datatype='integer' name='Cluster_ID' ordinal='14' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Market Distribution'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Category Distribution</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_apps_with_clusters' name='federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Platform]' role='dimension' type='nominal' />
+            <column-instance column='[__tableau_internal_object_id__].[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE:qk]' pivot='key' type='quantitative' />
+            <column caption='combined_apps_with_clusters.csv' datatype='table' name='[__tableau_internal_object_id__].[combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE]' role='measure' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Platform]' derivation='None' name='[none:Platform:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Platform:nk]'>
+            <groupfilter function='level-members' level='[none:Platform:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Category:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[__tableau_internal_object_id__].[cnt:combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Platform:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Platform:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[__tableau_internal_object_id__].[cnt:combined_apps_with_clusters.csv_5D97D0C6304341A0992800CAE2E68BCE:qk]</rows>
+        <cols>[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Category:nk]</cols>
+      </table>
+      <simple-id uuid='{72135921-07A2-460E-94D8-25357B2F9BDA}' />
+    </worksheet>
+    <worksheet name='Market Segmen'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='combined_apps_with_clusters' name='federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g'>
+            <column datatype='string' name='[App]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Cluster_ID]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Platform]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Price]' role='dimension' semantic-role='' type='ordinal' />
+            <column datatype='real' name='[Rating]' role='measure' type='quantitative' />
+            <column-instance column='[App]' derivation='Attribute' name='[attr:App:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Cluster_ID]' derivation='None' name='[none:Cluster_ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Platform]' derivation='None' name='[none:Platform:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Price]' derivation='None' name='[none:Price:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Rating]' derivation='Sum' name='[sum:Rating:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Platform:nk]'>
+            <groupfilter function='level-members' level='[none:Platform:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Platform:nk]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Cluster_ID:ok]' />
+              <tooltip column='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[attr:App:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[sum:Rating:qk]</rows>
+        <cols>[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Price:ok]</cols>
+      </table>
+      <simple-id uuid='{752022DB-E909-4194-AA59-B1E4BA839D31}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='combined_apps_with_clusters' name='federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g'>
+        <column datatype='string' name='[Platform]' role='dimension' type='nominal' />
+        <column-instance column='[Platform]' derivation='None' name='[none:Platform:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='98000' id='3' name='Market Segmen' w='41200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='98000' id='10' name='Market Distribution' w='41200' x='42000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='15125' id='8' name='Market Segmen' param='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Platform:nk]' type-v2='filter' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='19875' id='9' name='Market Segmen' pane-specification-id='0' param='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Cluster_ID:ok]' type-v2='color' w='16000' x='83200' y='16125'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='15125' id='11' name='Market Distribution' param='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Platform:nk]' type-v2='filter' w='16000' x='83200' y='36000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='10500' id='12' name='Market Distribution' pane-specification-id='0' param='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Platform:nk]' type-v2='color' w='16000' x='83200' y='51125'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='850' minheight='850' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='13' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='15125' id='8' mode='checkdropdown' name='Market Segmen' param='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Platform:nk]' type-v2='filter' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Market Segmen' w='41200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='19875' id='9' name='Market Segmen' pane-specification-id='0' param='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Cluster_ID:ok]' type-v2='color' w='16000' x='83200' y='16125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='15125' id='11' mode='checkdropdown' name='Market Distribution' param='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Platform:nk]' type-v2='filter' w='16000' x='83200' y='36000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='10' is-fixed='true' name='Market Distribution' w='41200' x='42000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10500' id='12' name='Market Distribution' pane-specification-id='0' param='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Platform:nk]' type-v2='color' w='16000' x='83200' y='51125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7BF08991-5307-4D03-8C81-305F79BC0DAC}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='44'>
+    <window class='worksheet' maximized='true' name='Market Segmen'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Platform:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Cluster_ID:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{1FEF60C1-3555-499E-A31D-D060DD5B82C7}' />
+    </window>
+    <window class='worksheet' name='Market Distribution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Platform:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0pqgi1k1t8nd6d1d91mhc0ksgo2g].[none:Platform:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9F5572C3-D975-41EB-AAF5-4B6AD87AB005}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Market Distribution'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Market Segmen'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='6' />
+      <simple-id uuid='{BF993097-CB2E-424F-A9D1-826E5A7EA9F0}' />
+    </window>
+  </windows>
+</workbook>
