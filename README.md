@@ -1,7 +1,5 @@
 # App Market Segmentation: Google Play vs. Apple App Store
 
-**Live Tableau Dashboard:** [Insert Tableau Public Link Here]
-
 This project analyzes and segments the mobile application market by integrating datasets from the Google Play Store and Apple App Store. Using machine learning (K-Means Clustering), the project categorizes apps based on user engagement, pricing, and ratings to uncover market trends and developer opportunities.
 
 ## 🚀 Project Overview
